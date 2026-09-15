@@ -68,10 +68,4 @@ The prototype uses deterministic rules in place of a paid model so it is reprodu
 
 ## Important prototype limitation
 This is NOT a clinical product and does not claim HIPAA/SOC 2 compliance. Telephony is simulated, EHR is mocked, authentication is demo-grade, and the concurrency lock is process-local. Before real patient use, replace these with production identity, authorization, encrypted infrastructure, durable distributed locking, audited EHR integration, validated clinical protocols, security/privacy controls, and formal clinical safety validation.
-
-## Submission checklist
-- Deploy the app and add the URL.
-- Publish the repository.
-- Record the demo flow.
-- Submit `docs/architecture.md`, `docs/queue-design.md`, `docs/safety-evaluation.md`, `docs/ai-usage.md`, `docs/development-ai-usage.md`, `docs/known-limitations.md`, and `docs/demo-script.md`.
-- Never commit `.env`, credentials, or real patient information.
+on.
